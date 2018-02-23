@@ -9,10 +9,10 @@ from email.mime.text import MIMEText
 from email.utils import formataddr
 
 class Sender(object):
-    my_name = 'vic'
-    my_sender = '342719784@qq.com'  # 发件人邮箱账号
-    my_pass = 'fsfxlbsnhnpebhci'  # 发件人邮箱密码(当时申请smtp给的口令)
-    my_user = '342719784@qq.com'  # 收件人邮箱账号
+    my_name = ''
+    my_sender = ''  # 发件人邮箱账号
+    my_pass = ''  # 发件人邮箱密码(当时申请smtp给的口令)
+    my_user = ''  # 收件人邮箱账号
 
     def mail(self, user):
         ret = True
