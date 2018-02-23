@@ -39,14 +39,14 @@ class get_ticket(object):
     # 用户名，密码
     username = u""
     passwd = u""
-    # cookies值得自己去找, 下面两个分别是上海, 太原南
+    # cookies
     starts = u"%u4E0A%u6D77%2CSHH"
     ends = u"%u592A%u539F%2CTYV"
     # 时间格式2018-01-19
     dtime = u"2018-01-19"
     # type
     type = ''
-    # 车次，选择第几趟，0则从上之下依次点击
+    # 车次，0则从上之下依次点击
     order = 0
     ###乘客名
     users = []
