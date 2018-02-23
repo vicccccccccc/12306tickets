@@ -37,8 +37,8 @@ class get_ticket(object):
     driver_name = ''
     executable_path = ''
     # 用户名，密码
-    username = u"victor930926"
-    passwd = u"Victor930926"
+    username = u""
+    passwd = u""
     # cookies值得自己去找, 下面两个分别是上海, 太原南
     starts = u"%u4E0A%u6D77%2CSHH"
     ends = u"%u592A%u539F%2CTYV"
